@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #585880;
+  font-family: courier;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 1000px;
+  background: #000000;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: werdana;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 1000px;
+  background-color: #334d4d;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #999966;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: white;
+}
+
+img {
+    max-height: 100%;
+    max-width; 100%;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<header>
+   <h2>𝕊𝕜𝕚𝕝𝕝𝕖𝕥<h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home page</a></li>
+      <li><a href="#">About the band</a></li>
+      <li><a href="#">Top albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+    </ul>
+    <img src="https://logodix.com/logo/236123.jpg" height=100 width=100/>
+  </nav>
+  
+  <article style="color:blue;"> 
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQolAg6NStUZt-AoorPTJL1LXUJcFRGX3ZsHSwAaZkj2aMY4iM2&usqp=CAU"/>
+  <p> The band skillet started in 1996. They have 19 albums. The members names are John Cooper Kory Cooper Jen ledger and Seth Morrison. Skillet started with two members at first. They are counted as a christian rock band.</p>
+  
+  <p>Their first album was Skillet. Befor John Cooper started his band Skillet he was violinist. He was born in 1975 April 7. Jen ledger was born in 1989 on December 8. She joind in 2008.</p>
+  
+ <p>Koory Cooper joined in 1999. And was born in July 21, 1972. Seth Morrison Joined in 2011. He was born in February 19, 1988. Skillt was one the 21st century's  most successful rock bands.</p>
+  </article>
+  
+</section>
+
+<footer>
+   <i>Copyright &copy; 2020 Dylon Anderson, All rights reserved.</i> 
+</footer>
+
+</body>

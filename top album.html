@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #585880;
+  font-family: courier;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 1100px;
+  background: #000000;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: werdana;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 1100px;
+  background-color: #334d4d;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #999966;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: white;
+}
+
+img {
+    max-height: 100%;
+    max-width; 100%;
+}
+
+p {
+   color: white;
+}
+
+ol {
+    color: white;
+    text-align: left;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<header>
+   <h2>𝕊𝕜𝕚𝕝𝕝𝕖𝕥<h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home page</a></li>
+      <li><a href="#">About the band</a></li>
+      <li><a href="#">Top albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+    </ul>
+    
+    <img src="https://logodix.com/logo/236123.jpg" height=100 width=100/>
+    
+  </nav>
+  
+  <article>
+  <h1 style="font-size:50px;color:blue;border:10px solid black;">Top Album</h1>
+  
+  <table align="center">
+  
+  <tr>
+  <td><img src="https://upload.wikimedia.org/wikipedia/en/e/ea/Skilletcomatose.jpg" height="220" width="220"></td>
+  <td>
+      <ol>
+      <li>Rebirthing</li>
+      <li>The last night</li>
+      <li>Yours to hold</li>
+      <li>Better than drugs</li>
+      <li>Comatose</li>
+      <li>The older I get</li>
+      <li>Those nights</li>
+      <li>Falling inside the black</li>
+      <li>Say goodbye</li>
+      <li>Whispers in the dark</li>
+      <li>Looking for angels</li>
+      </ol>
+      
+  </td>
+  </tr>
+  
+  <tr>
+  <td><img src="https://c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/1439.jpg&s=200.jpg" height="220" width="220"></td>
+  <td>
+      <ol>
+      <li>Hero</li>
+      <li>Monster</li>
+      <li>Dont wake me up</li>
+      <li>Awake and alive</li>
+      <li>One day to late</li>
+      <li>Its not me,its you</li>
+      <li>Should've when you could've</li>
+      <li>Believe</li>
+      <li>Forgiven</li>
+      <li>Sometimes</li>
+      <li>Never surrender</li>
+      <li>Lucy</li>
+     </ol>
+     
+     
+ </td>
+ </tr>
+ 
+ <tr>
+ <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSsBt5Kjfb0EmZCSHNFSNAlAf7HcXDEgTwcK6-XOIHI5P9yDovq&usqp=CAU.jpg" height="250" width="250" ><td>
+     <ol>
+     <li>Rise</li>
+     <li>Sick of it</li>
+     <li>Good to be alive</li>
+     <li>Not gonna die</li>
+     <li>Cirus for a psycho</li>
+     <li>American noise</li>
+     <li>Madness in me</li>
+     <li>Salvation</li>
+     <li>Fire and fury</li>
+     <li>My religion</li>
+     <li>Hard to find</li>
+     <li>What I believe</li>
+     <li>Battle cry</li>
+     <li>Everything goes black</li>
+     <li>Freakshow</li>
+     </ol>
+</td>
+</tr>
+ 
+ 
+ <tr>
+ </tr>
+ 
+ 
+  </table>    
+  </article>
+  
+</section>
+
+<footer>
+   <i>Copyright &copy; 2020 Dylon Anderson, All rights reserved.</i> 
+</footer>
+
+</body>
